@@ -23,7 +23,7 @@ Builder.load_string("""
             Button:
                 font_size: 23
                 text: 'Подтвердить'
-                on_press: root.manager.current = "auth"
+                on_press: root.manager.current = "customer"
 """)
 
 class CodeInput(TextInput):
