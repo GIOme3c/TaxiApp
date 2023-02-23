@@ -7,6 +7,7 @@ from pages.auth.verification_page import VerifScreen
 from pages.customer.index import CustomerScreen
 
 from kivy.config import Config
+Config.set('graphics', 'multisamples', '0')
 Config.set('graphics', 'width', '405')
 Config.set('graphics', 'height', '900')
 

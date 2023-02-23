@@ -14,7 +14,7 @@ Builder.load_string("""
                 font_size: 23
                 #! text_size: root.width, None
                 text: "Введите код из SMS-сообщения"
-            CodeInput:
+            TextInput:
                 font_size: 23
                 write_tab: False
                 multiline: False
@@ -26,7 +26,7 @@ Builder.load_string("""
                 on_press: root.manager.current = "customer"
 """)
 
-class CodeInput(TextInput):
+class TextInput(TextInput):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
